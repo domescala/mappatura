@@ -1,0 +1,499 @@
+
+  .cls-1,
+  .cls-34 {
+      fill: #1d1d1b;
+  }
+
+  .cls-1,
+  .cls-101,
+  .cls-108,
+  .cls-113,
+  .cls-116,
+  .cls-122,
+  .cls-56,
+  .cls-61,
+  .cls-71,
+  .cls-79,
+  .cls-93,
+  .cls-96 ,
+  .cls-129,
+  .cls-132,
+  .cls-36,
+  .cls-42,
+  .cls-50,
+  .cls-69{
+    font-family: "Roboto";
+    letter-spacing: 0.01em;
+    font-size: 12px;
+    transition: font-weight 0.7s cubic-bezier(.48,0,1,1) .0s;
+    
+
+  }
+  
+  .cls-101:hover{
+    
+    transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;
+  }
+  .cls-108:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-113:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-116:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-122:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-56:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-61:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-71:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-79:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-93:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-96:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-129:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-132:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-36:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-42:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-50:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+  .cls-69:hover{          transition: font-weight .1s cubic-bezier(0,.59,.24,.99) .0s;   }
+
+
+
+
+  
+  .cls-100,
+  .cls-101 {
+      fill: #a888ff;
+  }
+  .cls-35,
+  .cls-36 {
+      fill: red;
+      
+  }
+
+
+
+  .cls-38,
+  .cls-46 {
+      fill: none;
+      stroke-miterlimit: 10;
+  }
+
+  .cls-38 {
+      stroke: red;
+      stroke-width: 2px;
+      transition: stroke-width 1s ease-in .0s;
+  }
+  .cls-38:hover {
+    stroke-width: 6px;
+    transition: stroke-width 0.2s ease-in .0s;
+}
+.cls-46 {
+  stroke: blue;
+  stroke-width: 2px;
+  transition: stroke-width 1s ease-in .0s;
+}
+.cls-46:hover {
+stroke-width: 6px;
+transition: stroke-width 0.2s ease-in .0s;
+}
+
+  .cls-41,
+  .cls-42 {
+      fill: blue;
+  }
+
+
+
+
+
+  .cls-49,
+  .cls-50 {
+      fill: #ff00e7;
+  }
+
+
+  .cls-55,
+  .cls-56,
+  .cls-61,
+  .cls-69 {
+      fill: #00e7ff;
+  }
+
+ 
+
+  .cls-70,
+  .cls-71,
+  .cls-79 {
+      fill: #00ff24;
+  }
+
+ 
+
+  .cls-92,
+  .cls-93,
+  .cls-96 {
+      fill: #ff9d00;
+  }
+
+
+  .cls-107,
+  .cls-108 {
+      fill: #025600;
+  }
+
+  
+  .cls-112,
+  .cls-113 {
+      fill: #e5df00;
+  }
+
+
+
+  .cls-115,
+  .cls-116 {
+      fill: #bc9a69;
+  }
+
+ 
+
+  .cls-121,
+  .cls-122 {
+      fill: #7c2b0b;
+  }
+
+  
+
+  .cls-128,
+  .cls-129 {
+      fill: #4d299b;
+  }
+
+
+
+  .cls-131,
+  .cls-132 {
+      fill: #686b34;
+  }
+
+
+
+
+
+/* 
+
+#nomestakeholder{
+    font-size: 32px;
+    font-family: "Roboto";
+    letter-spacing: 0.01em;
+    opacity: 1;
+  }
+body{
+     background: #f8f8f8; 
+}
+ tspan {
+	background-image: linear-gradient(#ffd900, #ffd900);
+	background-repeat: no-repeat;
+	
+	background-size: 0% 200%;
+    transition: background-size .4s,  ease-in .6s;} 
+    
+.stakeholder,
+.cls-1,
+.cls-102,
+.cls-106,
+.cls-111,
+.cls-115,
+.cls-118,
+.cls-122,
+.cls-131,
+.cls-135,
+.cls-36,
+.cls-49,
+.cls-59,
+.cls-70,
+.cls-74,
+.cls-76,
+.cls-84,
+.cls-89,
+.cls-99 {
+  
+  font-family: "Roboto";
+  letter-spacing: 0.01em;
+  font-size: 11px;}
+
+
+
+ #Team_studenteschi_universitari{
+  font-weight: 100;
+ }
+ #Team_studenteschi_universitari:hover{
+  font-size: 14px;
+  font-weight: 800; letter-spacing: 0.1em;
+transition: font-weight 0s ease-in .0s}
+ .cls-102{
+
+
+font-weight: 100;
+ }
+           .cls-102:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-106{
+
+
+font-weight: 100;
+ }
+           .cls-106:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-111{
+
+
+font-weight: 100;
+ }
+           .cls-111:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-115{
+
+
+font-weight: 100;
+ }
+           .cls-115:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-118{
+
+
+font-weight: 100;
+ }
+           .cls-118:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-122{
+
+
+font-weight: 100;
+ }
+           .cls-122:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-131{
+
+
+font-weight: 100;
+ }
+           .cls-131:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-135{
+
+
+font-weight: 100;
+ }
+           .cls-135:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-36{
+
+
+font-weight: 100;
+ }
+           .cls-36:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-49{
+
+
+font-weight: 100;
+ }
+           .cls-49:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-59{
+
+
+font-weight: 100;
+ }
+           .cls-59:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-70{
+
+
+font-weight: 100;
+ }
+           .cls-70:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-74{
+
+
+font-weight: 100;
+ }
+           .cls-74:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-76{
+
+
+font-weight: 100;
+ }
+           .cls-76:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-84{
+
+
+font-weight: 100;
+ }
+           .cls-84:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-89{
+
+
+font-weight: 100;
+ }
+           .cls-89:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+ .cls-99{
+
+
+font-weight: 100;
+ }
+           .cls-99:hover { 	 
+        
+           
+        font-size: 14px;
+      font-weight: 800; letter-spacing: 0.1em;
+    transition: font-weight 0s ease-in .0s}
+
+
+
+
+
+
+
+
+
+
+
+
+.cls-35,
+.cls-36 {
+  fill: red;
+}
+.cls-1,
+.cls-34 {
+  fill: #1d1d1b;
+}
+.cls-121,
+.cls-122 {
+  fill: #7c2b0b;
+}
+
+
+.cls-130,
+.cls-131 {
+  fill: #4d299b;
+}
+.cls-134,
+.cls-135 {
+  fill: #686b34;
+}
+.cls-114,
+.cls-115 {
+  fill: #e5df00;
+}
+
+.cls-110,
+.cls-111 {
+  fill: #025600;
+}
+.cls-105,
+.cls-106 {
+  fill: #a888ff;
+}
+.cls-102,
+.cls-98,
+.cls-99 {
+  fill: #ff9d00;
+  animation: none;
+}
+.cls-83,
+.cls-84,
+.cls-89 {
+  fill: #32bb44;
+  animation: none;
+}
+.cls-73,
+.cls-74,
+.cls-76 {
+  fill: #1dbdcf;
+  animation: none;
+}
+.cls-58,
+.cls-59,
+.cls-70 {
+  fill: #ff00e7;
+  animation: none;
+}
+.cls-117,
+.cls-118 {
+  fill: #bc9a69;
+  animation: none;
+}
+
+.cls-48,
+.cls-49 {
+  fill: blue;
+  animation: none;
+}
+
+ */
+
