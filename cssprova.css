@@ -62,7 +62,7 @@
   .cls-35,
   .cls-36 {
       fill: red;
-      
+      stroke: #00000000;
   }
 
 
@@ -75,7 +75,7 @@
 
   .cls-38 {
       stroke: red;
-      transition: stroke-width 0.2s cubic-bezier(.48,0,1,1) .0s;
+      transition: stroke-width .6s cubic-bezier(.48,0,1,1) .2s;
   }
   .cls-38:hover {
     stroke-width: 6px;
@@ -83,7 +83,7 @@
 }
 .cls-46 {
   stroke: blue;
-  transition: stroke-width 0.2s cubic-bezier(.48,0,1,1) .0s;
+  transition: stroke-width .6s cubic-bezier(.48,0,1,1) .2s;
 }
 .cls-46:hover {
 stroke-width: 6px;

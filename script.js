@@ -75,7 +75,7 @@ function mouseon(nomeid){
                // ACCENDI GLI ELEMENTI PREMUTI
     document.getElementById(nomeid).style.opacity = 1;
     document.getElementById(nomeid).style.fontWeight = "800";
-    document.getElementById(nomeid).style['stroke-width'] = "6px";
+    document.getElementById(nomeid).style['stroke-width'] = "4px";
 
     
     
@@ -126,7 +126,7 @@ function tutti_gli_elementiOFF(nomeid){
 
                     document.getElementById(nome + "_" + (j + 1).toString()).style.opacity = 1;
                     document.getElementById(nome + "_" + (j + 1).toString()).style.fontWeight = "100";
-                    document.getElementById(nome + "_" + (j + 1).toString()).style['stroke-width'] = "1px";
+                document.getElementById(nome + "_" + (j + 1).toString()).style['stroke-width'] = "2px";
                     
                    }
     
