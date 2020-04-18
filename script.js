@@ -68,14 +68,14 @@ function mouseon(nomeid){
     tutti_gli_elementiOFF(nomeid);
     // categorie(nomeid);
                document.getElementById("prova2").innerHTML = nomeid;
-               document.getElementById("prova3").innerHTML = document.getElementById(nomeid).style.color;
+               document.getElementById("prova3").innerHTML = document.getElementById(nomeid).style.strokeWidth ;
 
 
 
                // ACCENDI GLI ELEMENTI PREMUTI
     document.getElementById(nomeid).style.opacity = 1;
     document.getElementById(nomeid).style.fontWeight = "800";
-    document.getElementById(nomeid).style.strokeWidth = "20px";
+    document.getElementById(nomeid).style['stroke-width'] = "6px";
 
     
     
@@ -108,6 +108,7 @@ function tutti_gli_elementiOFF(nomeid){
                 document.getElementById(nome + "_" + (j + 1).toString()).style.opacity = 0.2;
                 document.getElementById(nome + "_" + (j + 1).toString()).style.fontWeight = "100";
 
+
       
                 
                }
@@ -125,6 +126,7 @@ function tutti_gli_elementiOFF(nomeid){
 
                     document.getElementById(nome + "_" + (j + 1).toString()).style.opacity = 1;
                     document.getElementById(nome + "_" + (j + 1).toString()).style.fontWeight = "100";
+                    document.getElementById(nome + "_" + (j + 1).toString()).style['stroke-width'] = "1px";
                     
                    }
     
