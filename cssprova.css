@@ -58,11 +58,11 @@
   .cls-100,
   .cls-101 {
       fill: #a888ff;
+      
   }
   .cls-35,
   .cls-36 {
       fill: red;
-      stroke: #00000000;
   }
 
 
@@ -78,15 +78,16 @@
       transition: stroke-width .6s cubic-bezier(.48,0,1,1) .2s;
   }
   .cls-38:hover {
-    stroke-width: 6px;
+    stroke-width: 7px;
     transition: stroke-width .1s cubic-bezier(0,.59,.24,.99) .0s;
+    
 }
 .cls-46 {
   stroke: blue;
   transition: stroke-width .6s cubic-bezier(.48,0,1,1) .2s;
 }
 .cls-46:hover {
-stroke-width: 6px;
+stroke-width: 7px;
 transition: stroke-width .1s cubic-bezier(0,.59,.24,.99) .0s;
 }
 
