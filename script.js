@@ -75,7 +75,8 @@ function mouseon(nomeid){
                // ACCENDI GLI ELEMENTI PREMUTI
     document.getElementById(nomeid).style.opacity = 1;
     document.getElementById(nomeid).style.fontWeight = "800";
-    document.getElementById(nomeid).style['stroke-width'] = "4px";
+    document.getElementById(nomeid).style['stroke-width'] = "3px";
+    
 
     
     
@@ -99,14 +100,16 @@ function tutti_gli_elementiOFF(nomeid){
                 var nomecat = nomeid.split("_");
                 if (nome == nomecat[0]) {               // ELEMENTI CATEGORIA
                     document.getElementById(nome + "_" + (j + 1).toString()).style.opacity = 0.7;
-                    document.getElementById(nome + "_" + (j + 1).toString()).style.fontWeight = "100";
+                    document.getElementById(nome + "_" + (j + 1).toString()).style.fontWeight = "300";
 
 
 
                }
                else{                                    // ELEMENTI NON DELLA CATEGORIA
                 document.getElementById(nome + "_" + (j + 1).toString()).style.opacity = 0.2;
-                document.getElementById(nome + "_" + (j + 1).toString()).style.fontWeight = "100";
+                
+                document.getElementById(nome + "_" + (j + 1).toString()).style.fontWeight = "300";
+                
 
 
       
@@ -125,8 +128,8 @@ function tutti_gli_elementiOFF(nomeid){
                 var nome =  nomicategorie[i];
 
                     document.getElementById(nome + "_" + (j + 1).toString()).style.opacity = 1;
-                    document.getElementById(nome + "_" + (j + 1).toString()).style.fontWeight = "100";
-                document.getElementById(nome + "_" + (j + 1).toString()).style['stroke-width'] = "2px";
+                    document.getElementById(nome + "_" + (j + 1).toString()).style.fontWeight = "300";
+                    document.getElementById(nome + "_" + (j + 1).toString()).style['stroke-width'] = "1px";
                     
                    }
     
