@@ -20,15 +20,15 @@ var numericategorie = [19, 13, 18, 5 ,5, 4, 8, 17, 22, 62, 16, 15, 13, 5];
 var fontsizeiniziale = "11px";
 var fontsizeattivo = "32px";
 var fontsizecategoria ="16px";
-var fontsizenoncategoria = "6px";
+var fontsizenoncategoria = "9px";
 var strokewidthiniziale = "1px";
 var strokewidthnoncategoria = "0.1px";
-var fontweightiniziale = "300";
+var fontweightiniziale = "500";
 var fontweightattivo = "800";
-var opacitacategoria = 0.2;
-var opacitanoncategoria = 0.2;
+var opacitacategoria = 0.5;
+var opacitanoncategoria = 0.5;
 var opacitaattivo = 1;
-var opacitainiziale = 0.8;
+var opacitainiziale = 1;
 
 function quante(a){
     if (a == "Case history internazionali comunicazione"){
