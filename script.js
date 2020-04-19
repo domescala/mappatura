@@ -17,6 +17,18 @@ var nomicategorie = ["Case history internazionali comunicazione",
 "Festival"];
 
 var numericategorie = [19, 13, 18, 5 ,5, 4, 8, 17, 22, 62, 16, 15, 13, 5];
+var fontsizeiniziale = "11px";
+var fontsizeattivo = "32px";
+var fontsizecategoria ="16px";
+var fontsizenoncategoria = "6px";
+var strokewidthiniziale = "1px";
+var strokewidthnoncategoria = "0.1px";
+var fontweightiniziale = "300";
+var fontweightattivo = "800";
+var opacitacategoria = 0.2;
+var opacitanoncategoria = 0.2;
+var opacitaattivo = 1;
+var opacitainiziale = 0.8;
 
 function quante(a){
     if (a == "Case history internazionali comunicazione"){
@@ -63,26 +75,24 @@ function quante(a){
     }
     }
 
+
 function mouseon(nomeid){
     // tutti_gli_elementi(0.3, nomeid);
     tutti_gli_elementiOFF(nomeid);
     // categorie(nomeid);
-               document.getElementById("prova2").innerHTML = nomeid;
-               document.getElementById("prova3").innerHTML = document.getElementById(nomeid).style.strokeWidth ;
+    var nomecat = nomeid.split("_");
+               document.getElementById("nomedellacategoria").innerHTML = nomecat[0] ;
 
 
 
                // ACCENDI GLI ELEMENTI PREMUTI
-    document.getElementById(nomeid).style.opacity = 1;
-    document.getElementById(nomeid).style.fontWeight = "800";
+    document.getElementById(nomeid).style.fontSize = fontsizeattivo;
+    document.getElementById(nomeid).style.opacity = opacitaattivo;
+    document.getElementById(nomeid).style.fontWeight = fontweightattivo;
     document.getElementById(nomeid).style['stroke-width'] = "3px";
     
 
     
-    
-
-
-
 }
 function mouseoff(){
     tutti_gli_elementiON();
@@ -99,20 +109,19 @@ function tutti_gli_elementiOFF(nomeid){
                 var nome =  nomicategorie[i];
                 var nomecat = nomeid.split("_");
                 if (nome == nomecat[0]) {               // ELEMENTI CATEGORIA
-                    document.getElementById(nome + "_" + (j + 1).toString()).style.opacity = 0.7;
+                    document.getElementById(nome + "_" + (j + 1).toString()).style.opacity = opacitacategoria;
                     document.getElementById(nome + "_" + (j + 1).toString()).style.fontWeight = "300";
-
+                    // document.getElementById(nome + "_" + (j + 1).toString()).style.fontSize = fontsizecategoria;    
 
 
                }
                else{                                    // ELEMENTI NON DELLA CATEGORIA
-                document.getElementById(nome + "_" + (j + 1).toString()).style.opacity = 0.2;
-                
+                document.getElementById(nome + "_" + (j + 1).toString()).style.opacity = opacitanoncategoria;
+                document.getElementById(nome + "_" + (j + 1).toString()).style['stroke-width'] = strokewidthnoncategoria;                
+                // document.getElementById(nome + "_" + (j + 1).toString()).style.fontSize = fontsizenoncategoria;    
                 document.getElementById(nome + "_" + (j + 1).toString()).style.fontWeight = "300";
-                
 
-
-      
+                     
                 
                }
 
@@ -127,9 +136,11 @@ function tutti_gli_elementiOFF(nomeid){
             for (var j = 0; j < numericategorie[i] ; j++) {
                 var nome =  nomicategorie[i];
 
-                    document.getElementById(nome + "_" + (j + 1).toString()).style.opacity = 1;
-                    document.getElementById(nome + "_" + (j + 1).toString()).style.fontWeight = "300";
-                    document.getElementById(nome + "_" + (j + 1).toString()).style['stroke-width'] = "1px";
+                    document.getElementById(nome + "_" + (j + 1).toString()).style.opacity = opacitainiziale;
+                    document.getElementById(nome + "_" + (j + 1).toString()).style.fontWeight = fontweightiniziale;
+                    document.getElementById(nome + "_" + (j + 1).toString()).style['stroke-width'] = strokewidthiniziale;
+                    document.getElementById(nome + "_" + (j + 1).toString()).style.fontSize = fontsizeiniziale;
+                    document.getElementById("nomedellacategoria").innerHTML = " " ;
                     
                    }
     
