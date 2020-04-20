@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap');
+
+g{
+    font-size: 11px;
+    transition: opacity  .0s cubic-bezier(0,.59,.24,.99) .0s;
+    /* transition: font-size  .2s cubic-bezier(0,.59,.24,.99) .0s; */
+    transition: stroke-width .05s cubic-bezier(.48,0,1,1) .2s;
+    
+
+  }
+  .cls-1{
+    font-family: "Roboto";
+    letter-spacing: 0.01em;
+  }
+
+#nomedellacategoria{
+    font-size: 14px;
+}
+
+.cls-104,
+.cls-108,
+.cls-112,
+.cls-118,
+.cls-123,
+.cls-127,
+.cls-132,
+.cls-142,
+.cls-148,
+.cls-36,
+.cls-50,
+.cls-61,
+.cls-73,
+.cls-77,
+.cls-80,
+.cls-88,
+.cls-94 {
+       font-family: "Roboto";
+    letter-spacing: 0.01em;
+    /* font-size: 8px; */
+    transition: font-weight .2s cubic-bezier(.48,0,1,1) .0s;
+    transition: font-size  .2s cubic-bezier(0,.59,.24,.99) .0s;
+
+    
+}
+
+
+.cls-104:hover,
+.cls-108:hover,
+.cls-112:hover,
+.cls-118:hover,
+.cls-123:hover,
+.cls-127:hover,
+.cls-132:hover,
+.cls-142:hover,
+.cls-148:hover,
+.cls-36:hover,
+.cls-50:hover,
+.cls-61:hover,
+.cls-73:hover,
+.cls-77:hover,
+.cls-80:hover,
+.cls-88:hover,
+.cls-94:hover{
+    font-size: 32px; 
+    transition: font-weight .2s cubic-bezier(0,.59,.24,.99) .0s;
+    transition: font-size  .2s cubic-bezier(0,.59,.24,.99) .0s;  
+ }
+
+
+
+
+.cls-106,
+.cls-114,
+.cls-119,
+.cls-124,
+.cls-128,
+.cls-134,
+.cls-145,
+.cls-146,
+.cls-43,
+.cls-53,
+.cls-66,
+.cls-79,
+.cls-92 {
+    fill: none;
+    stroke-miterlimit: 10;
+}
+
+
+.cls-106,
+.cls-114,
+.cls-119,
+.cls-124,
+.cls-128,
+.cls-134,
+.cls-145,
+.cls-43,
+.cls-53,
+.cls-66,
+.cls-79,
+.cls-92 {
+    stroke-linecap: round;
+}
+
+.cls-1,
+.cls-34 {
+    fill: #1d1d1b;
+}
+
+
+.cls-35,
+.cls-36 {
+    fill: red;
+}
+.cls-43 {
+    stroke: red;
+    transition: stroke-width .6s cubic-bezier(.48,0,1,1) .0s;
+}
+.cls-43:hover {
+  stroke-width: 7px;
+  transition: stroke-width .1s cubic-bezier(0,.59,.24,.99) .0s;
+  
+}
+
+.cls-49,
+.cls-50 {
+    fill: blue;
+}
+
+.cls-53 {
+    stroke: blue;
+    transition: stroke-width .6s cubic-bezier(.48,0,1,1) .0s;
+}
+.cls-53:hover {
+  stroke-width: 7px;
+  transition: stroke-width 1s cubic-bezier(0,.59,.24,.99) .1s;
+  
+}
+
+.cls-60,
+.cls-61,
+.cls-73 {
+    fill: #ff00e7;
+}
+
+
+.cls-66 {
+    stroke: #ff00e7;
+    transition: stroke-width .6s cubic-bezier(.48,0,1,1) .0s;
+}
+.cls-66:hover {
+  stroke-width: 7px;
+  transition: stroke-width .1s cubic-bezier(0,.59,.24,.99) .0s;
+  
+}
+
+.cls-76,
+.cls-77,
+.cls-80 {
+    fill: #28baca;
+}
+
+.cls-79 {
+    stroke: #28baca;
+    transition: stroke-width .6s cubic-bezier(.48,0,1,1) .0s;
+}
+.cls-79:hover {
+  stroke-width: 7px;
+  transition: stroke-width .1s cubic-bezier(0,.59,.24,.99) .0s;
+  
+}
+
+
+
+.cls-87,
+.cls-88,
+.cls-94 {
+    fill: #37ad65;
+}
+
+
+.cls-92 {
+    stroke: #37ad65;
+    transition: stroke-width .6s cubic-bezier(.48,0,1,1) .0s;
+}
+.cls-92:hover {
+  stroke-width: 7px;
+  transition: stroke-width .1s cubic-bezier(0,.59,.24,.99) .1s;
+  
+}
+
+
+.cls-103,
+.cls-104,
+.cls-108 {
+    fill: #ff9d00;
+}
+.cls-103,
+.cls-106{
+    stroke: #ff9d00;
+    transition: stroke-width .6s cubic-bezier(.48,0,1,1) .0s;
+
+}
+.cls-114 {
+    stroke: #a888ff;
+    transition: stroke-width .6s cubic-bezier(.48,0,1,1) .0s;
+
+}
+
+.cls-111,
+.cls-112 {
+    fill: #a888ff;
+}
+
+
+.cls-117,
+.cls-118 {
+    fill: #025600;
+}
+
+.cls-119 {
+    stroke: #025600;
+    transition: stroke-width .6s cubic-bezier(.48,0,1,1) .0s;
+}
+.cls-119:hover {
+  stroke-width: 7px;
+  transition: stroke-width .1s cubic-bezier(0,.59,.24,.99) .1s;
+  
+}
+
+
+.cls-122,
+.cls-123 {
+    fill: #e5df00;
+}
+
+.cls-124 {
+    stroke: #e5df00;
+    transition: stroke-width .6s cubic-bezier(.48,0,1,1) .0s;
+}
+.cls-124:hover {
+  stroke-width: 7px;
+  transition: stroke-width .1s cubic-bezier(0,.59,.24,.99) .1s;
+  
+}
+
+
+.cls-126,
+.cls-127 {
+    fill: #bc9a69;
+}
+
+.cls-128 {
+    stroke: #bc9a69;
+    transition: stroke-width .6s cubic-bezier(.48,0,1,1) .0s;
+}
+.cls-128:hover {
+  stroke-width: 7px;
+  transition: stroke-width .1s cubic-bezier(0,.59,.24,.99) .1s;
+  
+}
+
+
+.cls-131,
+.cls-132 {
+    fill: #7c2b0b;
+}
+
+.cls-134 {
+    stroke: #7c2b0b;
+    transition: stroke-width .6s cubic-bezier(.48,0,1,1) .0s;
+}
+.cls-134:hover {
+  stroke-width: 7px;
+  transition: stroke-width .1s cubic-bezier(0,.59,.24,.99) .1s;
+  
+}
+
+
+.cls-141,
+.cls-142 {
+    fill: #4d299b;
+}
+
+.cls-145 {
+    stroke: #4d299b;
+    transition: stroke-width .6s cubic-bezier(.48,0,1,1) .0s;
+}
+.cls-145:hover {
+  stroke-width: 7px;
+  transition: stroke-width .1s cubic-bezier(0,.59,.24,.99) .1s;
+  
+}
+
+.cls-147,
+.cls-148 {
+    fill: #686b34;
+}
